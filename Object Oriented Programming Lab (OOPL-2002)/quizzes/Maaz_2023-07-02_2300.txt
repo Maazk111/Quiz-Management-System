@@ -1,0 +1,4 @@
+Maaz|2023-07-02|23:00
+What is Abstraction?|incomplete class|50
+what is lab?|OOP lab|10
+question 3|answer 3|10

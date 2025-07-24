@@ -1,0 +1,21 @@
+# IDE config
+.idea/
+*.iml
+
+# Build
+/out/
+*.class
+
+# External libs (if you ever use them)
+*.jar
+lib/
+external/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IntelliJ workspace files
+workspace.xml
+dataSources/
+dataSources.local.xml
