@@ -1,99 +1,98 @@
-# 📚 Quiz Management System – Java GUI-Based OOP Project
+# 📚 Quiz Management System – Java GUI OOP Project
 
 ## 🚀 Overview
-A GUI-based Java application that allows **teachers** to create quizzes and **students** to attempt them.  
-It includes features like auto-marking, result analytics, and file-based persistence using Java File I/O.  
-Built as part of the Object-Oriented Programming (OOP) course project at DHA Suffa University.
+A **Java Swing**-based quiz platform where **teachers** can create and manage quizzes, and **students** can attempt them in a secure, time-bound environment.  
+Features include **auto-marking**, **result analytics**, and **file-based data persistence** using Java File I/O.
+
+> 🏆 This project demonstrates advanced **OOP principles**, **MVC architecture**, and **GUI development**, similar to professional LMS (Learning Management System) tools.
+
+---
 
 ## 🛠️ Tech Stack
-- Java
-- Java Swing (for GUI)
-- Java File I/O (for persistence)
-- MVC Architecture
-- OOP Concepts (Inheritance, Composition, Association)
+- **Language**: Java
+- **GUI**: Java Swing
+- **Persistence**: Java File I/O
+- **Architecture**: MVC
+- **OOP Concepts**: Inheritance, Composition, Association
+
+---
+
+## 🎯 Skills Demonstrated
+- Java Swing GUI Development
+- File I/O & Data Persistence
+- MVC Architecture Implementation
+- User Authentication & Role-Based Access
+- Quiz Timer & Randomization Logic
+- Basic Analytics in Java
 
 ---
 
 ## 👨‍🏫 Teacher Features
-- Login with predefined credentials
-- Create and manage **Question Banks**
-- Generate **Quizzes** with date, time, and points
-- Automatically **evaluate** quizzes after submission
-- View student performance with **basic analytics**
-
-## 👨‍🎓 Student Features
-- Login and view available **Courses**
-- View and attempt **active quizzes**
-- Quizzes are **time-bound** with answer shuffling
-- Instantly see marks after submission
-- Secure validation of quiz timing (start and end time)
+- 🔑 Login with predefined credentials
+- 📚 Create & manage **Question Banks**
+- 📝 Generate quizzes with **date, time, and points**
+- ⚡ Auto-evaluate submissions instantly
+- 📊 View student performance with **analytics**
 
 ---
 
-## 📁 Folder Structure
+## 👨‍🎓 Student Features
+- 🔑 Login and view available **courses**
+- ⏳ Attempt **time-bound quizzes** with shuffled questions
+- 📈 Instant results after submission
+- ✅ Secure validation of quiz start/end time
 
-QuizManagementSystem/
-├── src/
-│ └── com/semester/
-│ ├── common/
-│ ├── login/
-│ ├── student/
-│ ├── teacher/
-│ └── Main.java
-├── .gitignore
-├── README.md
-└── assets/
+---
 
-
+## 🚧 Key Challenges Solved
+- Implemented **real-time quiz timer** with strict start/end validation
+- Designed **randomization algorithm** for questions to prevent cheating
+- Built **analytics module** for teacher insights on quiz performance
+- Created a **file-based persistence system** to store quizzes & results without a database
 
 ---
 
 ## 🧪 How to Run
-
 1. Open the project in **IntelliJ IDEA**.
 2. Run `Main.java`.
-3. Use any of the following credentials:
+3. Use credentials:
 
-### 👨‍🏫 Teacher Login
-- Username: `Sumaira`
-- Password: `admin123`
+### Teacher Login
+- **Username:** `Sumaira`
+- **Password:** `admin123`
 
-### 👨‍🎓 Student Login
-- Username: `Maaz` or `Rumaisa` or others
-- Password: `stu123`
-
-4. Navigate through GUI and explore features!
+### Student Login
+- **Username:** `Maaz` / `Rumaisa` / others
+- **Password:** `stu123`
 
 ---
 
-## 📸 Sample UI Screenshots
-
-| Login Page | Teacher Panel                  | Student Quiz |
-|------------|--------------------------------|----------------|
+## 📸 Sample UI
+| Login Page | Teacher Panel | Student Quiz |
+|------------|---------------|--------------|
 | ![Login](assets/login.png) | ![Teacher](assets/teacher.png) | ![Quiz](assets/student_attempt.png) |
 
 ---
 
 ## 📈 Analytics Example
-After quizzes are submitted, the system provides:
-- Percentage of students who got each question correct
-- Highlight difficult questions
-- Auto-generated attendance (absent/present)
+- ✅ Percentage of students answering correctly per question
+- 🔍 Highlights difficult questions
+- 📝 Auto-generated attendance (Present/Absent)
 
 ---
 
 ## 🔐 Security & Validation
-- Quiz timing validation to block late attempts
-- Randomization of question order to avoid cheating
-- User-type-based role access (Teacher vs Student)
+- ⏳ Time-restricted quiz attempts
+- 🔄 Randomized question order
+- 🎯 Role-based access control (Teacher vs Student)
 
 ---
 
 ## 📄 License
-This project is created for educational purposes. You can modify and reuse it as needed.
+Educational use only — feel free to modify and reuse.
 
 ---
 
-## 👥 Credits
-Developed by: **Maaz**  
-Instructor: DHA Suffa University - OOP Project (Spring 2023)
+## 👤 Developer
+**Maaz Khan** – Designed, implemented, and tested the entire system.    
+Instructor: DHA Suffa University – OOP Project (Spring 2023)  
