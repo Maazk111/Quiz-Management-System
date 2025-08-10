@@ -10,7 +10,6 @@
 *.jar
 lib/
 external/
-
 # OS
 .DS_Store
 Thumbs.db
