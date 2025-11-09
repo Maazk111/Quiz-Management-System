@@ -1,98 +1,128 @@
-# 📚 Quiz Management System – Java GUI OOP Project
+# 📚 Quiz Management System – Java GUI OOP Project (Version 2)
 
 ## 🚀 Overview
-A **Java Swing**-based quiz platform where **teachers** can create and manage quizzes, and **students** can attempt them in a secure, time-bound environment.  
-Features include **auto-marking**, **result analytics**, and **file-based data persistence** using Java File I/O.
 
-> 🏆 This project demonstrates advanced **OOP principles**, **MVC architecture**, and **GUI development**, similar to professional LMS (Learning Management System) tools.
+A **Java Swing–based Quiz Management System** designed as a collaborative **2nd Semester OOP project** at DHA Suffa University.
+This desktop application enables **teachers** to create, manage, and evaluate quizzes, while **students** can securely attempt them within a time limit.
+
+🏆 The project showcases advanced **Object-Oriented Programming**, **MVC architecture**, and **GUI-based system design**, similar to Learning Management Systems (LMS) used in education.
+
 
 ---
 
 ## 🛠️ Tech Stack
-- **Language**: Java
-- **GUI**: Java Swing
-- **Persistence**: Java File I/O
-- **Architecture**: MVC
-- **OOP Concepts**: Inheritance, Composition, Association
+
+- **Language:** Java
+- **GUI Framework:** Java Swing
+- **Persistence:** Java File I/O (no database required)
+- **Architecture:** MVC
+- **OOP Concepts:** Inheritance, Encapsulation, Composition, Association
 
 ---
 
 ## 🎯 Skills Demonstrated
-- Java Swing GUI Development
-- File I/O & Data Persistence
-- MVC Architecture Implementation
-- User Authentication & Role-Based Access
-- Quiz Timer & Randomization Logic
-- Basic Analytics in Java
+
+- Java Swing GUI design & event handling
+- File I/O for data storage and retrieval
+- Implementation of MVC structure
+- Role-based authentication (Teacher & Student)
+- Real-time quiz timer and validation logic
+- Randomized question selection
+- Auto-evaluation and result analytics
 
 ---
 
 ## 👨‍🏫 Teacher Features
-- 🔑 Login with predefined credentials
-- 📚 Create & manage **Question Banks**
-- 📝 Generate quizzes with **date, time, and points**
-- ⚡ Auto-evaluate submissions instantly
-- 📊 View student performance with **analytics**
+
+- 🔑 Secure login with credentials
+- 📚 Manage multiple course question banks
+- 🧩 Create quizzes with date, duration, and marks
+- ⚡ Auto-check submissions instantly
+- 📊 View quiz reports and performance analytics
 
 ---
 
 ## 👨‍🎓 Student Features
-- 🔑 Login and view available **courses**
-- ⏳ Attempt **time-bound quizzes** with shuffled questions
-- 📈 Instant results after submission
-- ✅ Secure validation of quiz start/end time
 
----
-
-## 🚧 Key Challenges Solved
-- Implemented **real-time quiz timer** with strict start/end validation
-- Designed **randomization algorithm** for questions to prevent cheating
-- Built **analytics module** for teacher insights on quiz performance
-- Created a **file-based persistence system** to store quizzes & results without a database
+- 🔐 Login with registered student credentials
+- 📖 View available courses and quizzes
+- ⏳ Attempt quizzes under a timer
+- 🎯 Receive instant graded results
+- ✅ Randomized question order for fairness
 
 ---
 
 ## 🧪 How to Run
-1. Open the project in **IntelliJ IDEA**.
-2. Run `Main.java`.
-3. Use credentials:
 
-### Teacher Login
-- **Username:** `Sumaira`
-- **Password:** `admin123`
+### 🖥️ Using IntelliJ IDEA
 
-### Student Login
-- **Username:** `Maaz` / `Rumaisa` / others
-- **Password:** `stu123`
+1. Open the project folder (**SemesterProject**) in IntelliJ IDEA.
+2. Navigate to: `src/com/second/Main.java`
+3. Run the `Main` class.
+4. Use the credentials below:
+
+**Teacher Login**  
+Username: `Sumaira`  
+Password: `admin123`
+
+**Student Login**  
+Username: `Maaz` / `Rumaisa` / others  
+Password: `stu123`
 
 ---
 
-## 📸 Sample UI
-| Login Page | Teacher Panel | Student Quiz |
-|------------|---------------|--------------|
-| ![Login](assets/login.png) | ![Teacher](assets/teacher.png) | ![Quiz](assets/student_attempt.png) |
+## 🖼️ Version 1 UI (Classic Layout)
+
+| Login | Teacher Dashboard | Student Attempt |
+|:--:|:--:|:--:|
+| ![Login](assets/login.png) | ![Teacher Dashboard](assets/teacher.png) | ![Student Attempt](assets/student_attempt.png) |
+
+---
+
+## 🪄 Version 2 UI (Improved Layout)
+
+| Login | Teacher Page | Make Quiz | User Type Selection |
+|:--:|:--:|:--:|:--:|
+| ![Login](Version%202/images/1.png) | ![Teacher Page](Version%202/images/2.png) | ![Make Quiz](Version%202/images/3.png) | ![User Type Selection](Version%202/images/4.png) |
 
 ---
 
 ## 📈 Analytics Example
-- ✅ Percentage of students answering correctly per question
-- 🔍 Highlights difficult questions
-- 📝 Auto-generated attendance (Present/Absent)
+
+- ✅ Auto-generated results with scoring
+- 📊 Performance tracking for each student
+- 🧠 Highlights frequently missed questions
+- 📝 Attendance marking (Present / Absent based on quiz attempt)
 
 ---
 
 ## 🔐 Security & Validation
-- ⏳ Time-restricted quiz attempts
-- 🔄 Randomized question order
-- 🎯 Role-based access control (Teacher vs Student)
+
+- ⏰ Time-bound quizzes (strict duration control)
+- 🔄 Randomized question sequence per attempt
+- 🎯 Role-based system separation (Teacher vs Student)
+
+---
+
+## 🧠 Learning Outcomes
+
+- Practical application of **OOP concepts**
+- Understanding of **GUI design** using Swing
+- Implementation of **event-driven programming**
+- Experience in **file-based data persistence**
+- Collaboration and version control with shared design logic
 
 ---
 
 ## 📄 License
-Educational use only — feel free to modify and reuse.
+
+For educational and learning purposes only — free to reuse or modify with credit.
 
 ---
 
-## 👤 Developer
-**Maaz Khan** – Designed, implemented, and tested the entire system.    
-Instructor: DHA Suffa University – OOP Project (Spring 2023)  
+## 👥 Developers
+
+**Muhammad Maaz Khan**  
+**Rumaisa Fatima**  
+📚 DHA Suffa University — 2nd Semester (Object Oriented Programming Lab)  
+🧠 Collaborative project showcasing GUI-based OOP design with slight functional and UI variations across versions.
